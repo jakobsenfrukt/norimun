@@ -1,0 +1,72 @@
+/* 
+
+http://norimun.com 
+
+website by elise (http://elisejakob.no)
+
+2014
+
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+	font-family: 'futura-pt', sans-serif;
+	font-size: 1.25em;
+	font-weight: 600;
+	min-width: 620px;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover,
+.current {
+	color: #FFC627;
+}
+
+.light {
+	font-weight: 400;
+}
+#left, #right {
+	width: 300px;
+	float: left;
+}
+
+header {
+	width: 100%;
+	border-bottom: 1px solid #000;
+	float: left;
+	padding: 0.5em 4em 1.5em;
+	margin-bottom: 2em;
+}
+
+header h1 {
+	display: none;
+}
+
+header img {
+	float: left;
+	padding: 1em;
+	max-width: 220px;
+}
+
+header ul {
+	list-style-type: none;
+	float: right;
+}
+
+#content {
+	width: 600px;
+	margin: auto;
+	line-height: 1.5em;
+}
+p#no-float {
+	height: 1px;
+}
